@@ -92,6 +92,11 @@ h1 {
 
 .highlight-banner {
   background: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0.82) 100%);
+  
+}
+
+.trusted-brands {
+  background: #fff;
 }
 
 .highlight-banner h1 {
@@ -152,13 +157,13 @@ footer {
   color: #fff;
 }
 
-.marquee-slider img {
+.trusted-brands img {
   height: 50px;
   filter: grayscale(1);
-  opacity: 0.4;
+  opacity: 0.5;
 }
 
-.marquee-slider img:hover {
+.trusted-brands img:hover {
   filter: grayscale(0);
   opacity: 1;
 }
@@ -176,8 +181,8 @@ footer {
   .highlight-banner {
     height: 100vh;
   }
-  .marquee-slider img {
-    height: 80px;
+  .trusted-brands img {
+    height: 60px;
   }
 }
 

@@ -180,9 +180,6 @@ footer {
   .highlight-banner {
     height: 100vh;
   }
-  .trusted-brands img {
-    height: 60px;
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -197,5 +194,8 @@ footer {
   }
   .highlight-banner p {
     font-size: 20px;
+  }
+  .trusted-brands img {
+    height: 60px;
   }
 }
